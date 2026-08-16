@@ -249,15 +249,68 @@
   </p>
 </article>
 
-          <article class="card project-card">
-            <span class="tag">Software · Operations Geology</span>
+          <article class="card project-card featured-project">
+            <div class="project-status-row">
+              <span class="tag">Software · Operations Geology · AI</span>
+              <span class="status-badge">In Development</span>
+            </div>
+            
             <h3>Mudlogging Copilot</h3>
-            <p>
-              Developing a data-driven mudlogging platform for LAS/CSV ingestion, drilling and chromatograph-gas visualization,
-              lithology interpretation, gas-show identification, operational-event tracking, reporting, and future cuttings-image classification.
-            </p>
-            <p class="stack">Python · Streamlit · LAS · Data Engineering · ML</p>
-          </article>
+            
+            <!-- Main application preview -->
+              <div class="mudlogging-feature-image">
+                <img
+                  src="mudlogging_depth_tracks.png"
+                  alt="Mudlogging Copilot depth-based mudlog visualization showing ROP, chromatograph gas, lithology, and drilling parameters"
+                  class="project-image"
+                  loading="lazy"
+                >
+              </div>
+            
+              <!-- Secondary application previews -->
+              <div class="mudlogging-gallery">
+            
+                <figure>
+                  <img
+                    src="mudlogging_gas_events.png"
+                    alt="Mudlogging Copilot lag-aware clustered gas-event analysis"
+                    class="project-image"
+                    loading="lazy"
+                  >
+                  <figcaption>Lag-aware gas-event detection and operational context.</figcaption>
+                </figure>
+            
+                <figure>
+                  <img
+                    src="mudlogging_interpretation.png"
+                    alt="Mudlogging Copilot editable geological interpretation and automated reporting interface"
+                    class="project-image"
+                    loading="lazy"
+                  >
+                  <figcaption>Editable geological interpretation and report generation.</figcaption>
+                </figure>
+            
+              </div>
+            
+              <p>
+                Developing an intelligent mudlogging and operations-geology platform
+                that transforms drilling, gas, lithology, and well-log data into
+                interactive visualizations and interpretable geological information.
+              </p>
+            
+              <p>
+                The current prototype supports native LAS and CSV ingestion,
+                configurable depth-based mudlog tracks, chromatograph gas analysis,
+                lag-aware gas-event clustering, field-style lithology symbology,
+                drilling-parameter visualization, editable geological interpretation,
+                and automated shift-report generation.
+              </p>
+            
+              <p class="stack">
+                Python · Streamlit · LAS · Data Engineering · Machine Learning · Operations Geology
+              </p>
+            
+            </article>
 
           <article class="card project-card">
             <span class="tag">GNSS · Coastal Monitoring</span>
