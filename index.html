@@ -3,89 +3,279 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Macdennis Nwaeze - Professional Portfolio</title>
-  <link rel="stylesheet" href="styles/style.css">
+  <meta name="description" content="Macdennis Nwaeze — geologist, geophysicist, geosensing researcher, and data scientist working across operations geology, GNSS, coastal hazards, HPC, and cloud computing.">
+  <title>Macdennis Nwaeze | Geoscience, Geosensing & Data Science</title>
+  <link rel="stylesheet" href="style.css">
 </head>
 <body>
-  <header>
-    <nav>
-      <ul>
-        <li><a href="#about">About</a></li>
-        <li><a href="#resume">Resume</a></li>
-        <li><a href="#skills">Skills</a></li>
-        <li><a href="#certifications">Certifications</a></li>
-        <li><a href="#projects">Projects</a></li>
-        <li><a href="#contact">Contact</a></li>
-      </ul>
-    </nav>
+  <header class="site-header">
+    <div class="container nav-wrap">
+      <a class="brand" href="#home">MN</a>
+      <nav aria-label="Primary navigation">
+        <a href="#about">About</a>
+        <a href="#experience">Experience</a>
+        <a href="#research">Research</a>
+        <a href="#projects">Projects</a>
+        <a href="#skills">Skills</a>
+        <a href="#contact">Contact</a>
+      </nav>
+    </div>
   </header>
 
-  <section id="about">
-    <h1>Macdennis Nwaeze</h1>
+  <main>
+    <section id="home" class="hero">
+      <div class="container hero-grid">
+        <div>
+          <p class="eyebrow">Geology · Geophysics · Geosensing · Data Science</p>
+          <h1>Macdennis Nwaeze, M.Sc., GIT</h1>
+          <p class="hero-copy">
+            Geoscientist and Graduate Research Assistant at the University of Houston working at the intersection of
+            operations geology, GNSS geodesy, coastal hazards, remote sensing, data engineering, high-performance
+            computing, and cloud computing.
+          </p>
+          <div class="hero-actions">
+            <a class="button primary" href="#projects">Explore Projects</a>
+            <a class="button secondary" href="https://www.linkedin.com/in/macdennis-nwaeze/" target="_blank" rel="noreferrer">LinkedIn</a>
+            <a class="button secondary" href="https://github.com/yardi-mac" target="_blank" rel="noreferrer">GitHub</a>
+          </div>
+        </div>
+        <div class="profile-card">
+          <img src="macd.png" alt="Macdennis Nwaeze">
+          <div>
+            <strong>Houston, Texas</strong>
+            <span>Geoscience + Engineering + Computing</span>
+          </div>
+        </div>
+      </div>
+    </section>
 
-    <img src="macd.png" alt="Macdennis Nwaeze" width="200">
+    <section id="about" class="section">
+      <div class="container narrow">
+        <p class="section-label">About</p>
+        <h2>Bridging field geology, geophysics, engineering, and computational geoscience.</h2>
+        <p>
+          I am a geologist and geophysicist with professional experience in wellsite geology, drilling support,
+          formation evaluation, geosteering, geochemical QA/QC, and subsurface interpretation. I hold an M.Sc. in
+          Geophysics from the University of Houston and am currently pursuing graduate study in Geo-Sensing and
+          Systems Engineering.
+        </p>
+        <p>
+          My current research focuses on GNSS-based coastal and atmospheric monitoring, compound flooding, satellite
+          remote sensing, and data-driven hazard prediction. I build reproducible Python and Linux workflows for large
+          multi-source geoscience datasets using HPC and cloud-computing environments.
+        </p>
+      </div>
+    </section>
 
-    <p>My name is Macdennis Nwaeze, and Welcome to my portoflio!<p>
-    <p> I am a passionate Wellsite Geologist and QA/QC Data Analyst with a strong background in geology and geophysics. I hold a Bachelor of Science (BSc) in Geology and a Master of Science (MSc) in Geophysics, along with my Geologist in Training (GIT) certification. My work focuses on ensuring the accuracy and quality of geological data, which plays a critical role in successful drilling operations.<p>
-    <p>I’m currently planning to further my education by pursuing a second Master of Science (MSc) in Geosensing Engineering, starting in the fall of 2025. This next step will allow me to deepen my expertise in advanced technologies for subsurface exploration and analysis, which I’m incredibly excited about.<p>
-    <p>Outside of work, I enjoy coding, creating websites, and developing online games, which allow me to combine my technical skills with my creativity. I’m also a lifelong learner, always exploring new tools and technologies to stay ahead in my field. My goal is to continue growing, innovating, and making meaningful contributions to the geosciences industry.</p>
-  </section>
+    <section id="experience" class="section alt">
+      <div class="container">
+        <p class="section-label">Professional Experience</p>
+        <h2>From real-time drilling operations to research-scale data systems.</h2>
 
-<section id="resume">
-  <h2>Resume</h2>
-  <p>Download my resume to learn more about my professional experience.</p>
-  <a href="Official Resume_Geo Engr.pdf" download="Official Resume_Geo Engr.pdf">Download Resume</a>
-</section>
+        <article class="timeline-card featured">
+          <div class="timeline-head">
+            <div>
+              <h3>Graduate Research Assistant</h3>
+              <p>National Center for Airborne Laser Mapping (NCALM), University of Houston</p>
+            </div>
+            <span>Jan 2026 – Present</span>
+          </div>
+          <ul>
+            <li>Conduct applied geoscience and data-science research using GNSS, tide gauges, satellite, meteorological, and geospatial datasets.</li>
+            <li>Develop Python and Linux data-engineering workflows for automated acquisition, preprocessing, QA/QC, integration, analysis, and visualization.</li>
+            <li>Use high-performance computing and cloud-computing environments to process large Earth-observation and geoscience datasets.</li>
+            <li>Develop GNSS-IR and precise point positioning workflows for coastal sea-level and atmospheric monitoring during extreme-weather events.</li>
+          </ul>
+          <a class="text-link" href="https://xie.cive.uh.edu/personnel/" target="_blank" rel="noreferrer">Marine & Coastal Geosensing Group →</a>
+        </article>
 
-  <section id="skills">
-    <h2>Skills</h2>
-    <ul>
-      <li>Petrophysics and Formation Evaluation, Petroleum Geophysics, Stratigraphy, Structural Geology, Seismic amplitude interpretation, Geospatial Analysis 
-       and Application (GIS), Well Log Analysis, Petroleum Play and Fairway Interpretation</li>
-      <li>Python, Mathlab, Bash, SQL, Github, JSON</li>
-      <li>Petrel, Kingdom, Petra, ArcMap, ArcGIS, Arc Scene, MS Excel, MS Office, MS Excel, Mainlog, Oasis Montaj, Envi</li>
-    </ul>
-  </section>
+        <article class="timeline-card">
+          <div class="timeline-head">
+            <div>
+              <h3>QA/QC Geologist / Data Analyst</h3>
+              <p>Diversified Well Logging LLC · Conroe, Texas</p>
+            </div>
+            <span>Nov 2024 – Jan 2026</span>
+          </div>
+          <ul>
+            <li>Analyzed real-time XRF and XRD petrophysical and geochemical data for formation evaluation.</li>
+            <li>Performed QA/QC on geochemical datasets and integrated seismic, well-log, and geological information for subsurface interpretation.</li>
+            <li>Created technical reports and data products using SQL, Power BI, and geoscience interpretation software.</li>
+          </ul>
+        </article>
 
-  <section id="certifications">
-    <h2>Certifications</h2>
-    <ul>
-      <li>ASBOG Geologist In Training</li>
-      <li>Cloud Foundations</li>
-      <li>Cloud Computing in AWS</li>
-      <li>Managed Services in AWS</li>
-      <li>Azure Essentials</li>
-      <li>Managed Services in Azure</li>
-    </ul>
-  </section>
+        <article class="timeline-card">
+          <div class="timeline-head">
+            <div>
+              <h3>Wellsite Geologist / Field Unit Manager</h3>
+              <p>Diversified Well Logging LLC · South Texas Division</p>
+            </div>
+            <span>Feb 2023 – Nov 2024</span>
+          </div>
+          <ul>
+            <li>Supported drilling operations across the Eagle Ford, Permian, and Haynesville-Bossier basins.</li>
+            <li>Collaborated with drilling engineers and operations geologists using real-time geological and drilling data for geosteering and wellbore placement.</li>
+            <li>Managed mudlogging operations, geological reporting, formation evaluation, safety, and multidisciplinary field workflows.</li>
+          </ul>
+        </article>
+      </div>
+    </section>
 
-  <section id="projects">
-    <h2>Projects</h2>
-    <div class="project">
-      <h3>Identifying mechanisms responsible for misties between the synthetic seismogram and the seismic (Delaware and Cooper basins)</h3>
-      <p>This project investigates the causes of discrepancies between synthetic and real seismic data, particularly in the Delaware and Cooper Basins. The study focuses on how internal multiples, attenuation, and amplitude variation with offset (AVO) affect seismic well ties. Using theoretical models, field data, and advanced processing techniques, the research suggests methods to improve seismic image quality and well-tie accuracy. Key contributions include analyzing wavelet propagation, filtering strategies, and AVO modeling to enhance seismic interpretation and reservoir characterization.</p>
-  <a href="capstone_project.pdf" download="capstone_project.pdf">Download Capstone Project</a>
-    </div>
+    <section id="research" class="section">
+      <div class="container">
+        <p class="section-label">Research & Presentations</p>
+        <h2>Applied research in coastal hazards, GNSS, and subsurface geophysics.</h2>
+        <div class="card-grid">
+          <article class="card">
+            <span class="tag">ICCE 2026</span>
+            <h3>GNSS-Based Hurricane Ian Monitoring</h3>
+            <p>
+              Integrated GNSS interferometric reflectometry, GNSS-derived atmospheric products, NOAA tide gauges,
+              and NASA GPM/IMERG precipitation to investigate storm-driven sea-level and atmospheric variability
+              during Hurricane Ian.
+            </p>
+            <p class="meta">Presented at the International Conference on Coastal Engineering (ICCE 2026).</p>
+          </article>
 
+          <article class="card">
+            <span class="tag">M.Sc. Geophysics</span>
+            <h3>Well-to-Seismic Misties</h3>
+            <p>
+              Investigated mechanisms responsible for misties between synthetic seismograms and seismic data in the
+              Delaware and Cooper basins, improving well-to-seismic ties through velocity-model corrections and AVO analysis.
+            </p>
+            <a class="text-link" href="capstone_project.pdf">View thesis project →</a>
+          </article>
 
-      <h3>Conversion of a field geodesy module on the neotectonics of the northern Rocky Mountains into an online exercise</h3>
-      <p>The project, Conversion of a Field Geodesy Module on the Neotectonics of the Northern Rocky Mountains into an Online Exercise, was developed in response to the COVID-19 pandemic to transition a traditional field geodesy module into a virtual format. Utilizing remote sensing, GIS software, and geodetic data, the study focused on fault analysis, tectonic geomorphology, and seismic hazard assessment in the Northern Rocky Mountains. Key methods included surface image analysis, 3D modeling, elastic strain accumulation analysis, and fault scarp dating. The project demonstrated the advantages of virtual geologic analysis, offering a faster and more accessible approach while also highlighting limitations such as low-quality digital elevation models.</p>
-      <a href="GSA 2020 Collaboration Presentation.pdf" download="GSA 2020 Collaboration Presentation.pdf">Download Project</a>
+          <article class="card">
+            <span class="tag">GSA 2020</span>
+            <h3>Virtual Field Geodesy & Neotectonics</h3>
+            <p>
+              Contributed to the conversion of a field geodesy module on the neotectonics of the northern Rocky Mountains
+              into an online exercise using geodesy, GIS, remote sensing, and tectonic-geomorphology concepts.
+            </p>
+            <div class="link-row">
+              <a class="text-link" href="GSA 2020 Collaboration Presentation.pdf">Presentation →</a>
+              <a class="text-link" href="https://gsa.confex.com/gsa/2020AM/webprogram/Paper357590.html" target="_blank" rel="noreferrer">GSA abstract →</a>
+            </div>
+          </article>
+        </div>
+      </div>
+    </section>
 
-      <h3>COVID-19 - The Visible Catalyst</h3>
-      <p>This project examines the relationship between population density and COVID-19 transmission in Texas, leveraging GIS mapping through ArcMap to analyze infection and death rates. Given Texas’ status as the second most populous U.S. state, the study aims to illustrate how urban clustering contributes to the virus's rapid spread. The research also emphasizes the economic and social impacts of the pandemic, including rising crime rates and the necessity of stay-at-home measures. Furthermore, the project identifies optimal locations for emergency testing sites, highlighting the importance of early detection and testing in mitigating the crisis.</p>
-      <p>Project Website: <a href="https://nwaezemacdennis.wixsite.com/website">https://nwaezemacdennis.wixsite.com/website</a></p>
-    <!-- Add more projects as needed -->
-  </section>
+    <section id="projects" class="section alt">
+      <div class="container">
+        <p class="section-label">Selected Projects</p>
+        <h2>Building tools that connect geoscience data with operational decisions.</h2>
+        <div class="card-grid projects-grid">
+          <article class="card project-card">
+            <span class="tag">NASA · GNN · Compound Flooding</span>
+            <h3>Texas Coastal Compound-Flood Prediction</h3>
+            <p>
+              Developing an attention-based spatiotemporal graph neural network for 1–12 hour compound-flood forecasting
+              across Galveston, Matagorda, and Corpus Christi bay systems. The workflow integrates tide gauges, river gauges,
+              GNSS, GPM IMERG, SMAP, meteorological data, terrain, and tropical-cyclone information.
+            </p>
+            <p class="stack">Python · PyTorch/Graph ML · GIS · NOAA · NASA Earthdata · HPC</p>
+          </article>
 
-  <section id="contact">
-    <h2>Contact</h2>
-    <p>Email: <a href="mailto:nwaezemacdennis@yahoo.com">nwaezemacdennis@yahoo.com</a></p>
-    <p>LinkedIn: <a href="https://www.linkedin.com/in/macdennis-nwaeze/">https://www.linkedin.com/in/macdennis-nwaeze/</a></p>
-  </section>
+          <article class="card project-card">
+            <span class="tag">Software · Operations Geology</span>
+            <h3>Mudlogging Copilot</h3>
+            <p>
+              Developing a data-driven mudlogging platform for LAS/CSV ingestion, drilling and chromatograph-gas visualization,
+              lithology interpretation, gas-show identification, operational-event tracking, reporting, and future cuttings-image classification.
+            </p>
+            <p class="stack">Python · Streamlit · LAS · Data Engineering · ML</p>
+          </article>
+
+          <article class="card project-card">
+            <span class="tag">GNSS · Coastal Monitoring</span>
+            <h3>GNSS-IR Sea-Level Retrieval</h3>
+            <p>
+              Processing low-elevation GNSS signal-to-noise observations using spectral analysis to retrieve reflector height
+              and coastal water-level variability, with tide-gauge validation and ongoing work toward multi-frequency and phase-center corrections.
+            </p>
+            <p class="stack">Python · gnssrefl · GNSS · Time Series · NOAA</p>
+          </article>
+
+          <article class="card project-card">
+            <span class="tag">Cloud · Data Engineering</span>
+            <h3>Earth-Observation Data Pipelines</h3>
+            <p>
+              Building acquisition and quality-control pipelines for large NOAA and NASA datasets, including 6-minute tide gauges,
+              GPM IMERG precipitation, SMAP soil moisture, GNSS archives, and remote-sensing products for multi-year coastal analyses.
+            </p>
+            <p class="stack">Linux · Python · Bash · AWS/Azure · HPC · Git</p>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section id="skills" class="section">
+      <div class="container">
+        <p class="section-label">Technical Skills</p>
+        <h2>A multidisciplinary geoscience and computing toolkit.</h2>
+        <div class="skills-grid">
+          <div>
+            <h3>Operations & Subsurface</h3>
+            <p>Wellsite geology, mudlogging, geosteering support, formation evaluation, well-log analysis, seismic interpretation, XRF/XRD, reservoir characterization.</p>
+          </div>
+          <div>
+            <h3>Geosensing & Remote Sensing</h3>
+            <p>GNSS/GPS, GNSS-IR, precise point positioning, tropospheric delay/IWV, GIS, coastal monitoring, satellite Earth observation.</p>
+          </div>
+          <div>
+            <h3>Programming & Data</h3>
+            <p>Python, SQL, Bash, Linux, Git/GitHub, JSON, Jupyter, Visual Studio Code, time-series analysis, data visualization, data engineering.</p>
+          </div>
+          <div>
+            <h3>Computing & Platforms</h3>
+            <p>High-performance computing (HPC), AWS, Microsoft Azure, cloud computing, ArcGIS, Petrel, Petra, Oasis Montaj, Power BI, Excel.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section credentials alt">
+      <div class="container">
+        <p class="section-label">Education & Credentials</p>
+        <div class="credential-grid">
+          <div>
+            <h3>University of Houston</h3>
+            <p><strong>M.S., Geo-Sensing and Systems Engineering</strong><br>Current graduate study</p>
+            <p><strong>M.S., Geophysics</strong><br>Petroleum Geophysics specialization · 2022</p>
+            <p><strong>B.S., Geology</strong><br>Minors in Mathematics and Geophysics · 2020</p>
+          </div>
+          <div>
+            <h3>Professional Development</h3>
+            <p><strong>Geologist in Training (GIT)</strong><br>ASBOG</p>
+            <p><strong>Cloud Computing</strong><br>AWS & Microsoft Azure postgraduate training</p>
+            <p><strong>Rig Pass</strong><br>Oil & gas safety training</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="contact" class="section contact-section">
+      <div class="container narrow center">
+        <p class="section-label">Contact</p>
+        <h2>Interested in geoscience, engineering, research, or data-driven operations?</h2>
+        <p>I am open to opportunities and collaborations across geoscience, geosensing, energy, coastal hazards, and applied data science.</p>
+        <div class="hero-actions center-actions">
+          <a class="button primary" href="mailto:nwaezemacdennis@yahoo.com">Email Me</a>
+          <a class="button secondary" href="https://www.linkedin.com/in/macdennis-nwaeze/" target="_blank" rel="noreferrer">LinkedIn</a>
+          <a class="button secondary" href="https://github.com/yardi-mac" target="_blank" rel="noreferrer">GitHub</a>
+        </div>
+      </div>
+    </section>
+  </main>
 
   <footer>
-    <p>&copy; 2023 Macdennis Nwaeze. All rights reserved.</p>
+    <div class="container footer-wrap">
+      <p>© 2026 Macdennis Nwaeze. All rights reserved.</p>
+      <p>Geoscience · Geosensing · Data Science</p>
+    </div>
   </footer>
 </body>
 </html>
